@@ -15,3 +15,10 @@ public class SpringConfig {
 		return new OrdersBusinessService();
 	}
 }
+//	@Autowired
+//	private DataSource dataSource;
+//	@Bean(name="dataAccessInterface")
+//	public DataAccessInterface<OrderModel> getDataAccess(){
+//		return new OrdersDataService(dataSource);
+//	}
+//}
